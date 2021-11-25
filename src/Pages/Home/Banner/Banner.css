@@ -1,0 +1,19 @@
+.line{
+    position: relative;
+    z-index: 11;
+}
+
+.line::after {
+    position: absolute;
+    content: "";
+    height: 7rem;
+    width: 150%;
+    bottom: -100px;
+    margin: 0 auto;
+    left: -20px;
+    right: 0;
+    background: #fff;
+    transform: rotate(-3deg);
+    transition: 1.5s;
+    z-index: 100;
+  }
