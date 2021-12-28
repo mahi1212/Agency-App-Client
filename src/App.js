@@ -15,7 +15,10 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path='/home' element={<Home />}></Route>
         </Routes>
-      </BrowserRouter>,
+      </BrowserRouter>
+      <div className='bg-yellow-300 text-gray-600 py-4'>
+        Copyright © Mahinur Rahman 2021
+      </div>
     </div>
   );
 }
